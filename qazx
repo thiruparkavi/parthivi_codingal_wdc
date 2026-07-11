@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My food dairy</title>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+    body {
+      background-color: rgb(2, 26, 12);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+      color:rgb(72, 91, 76);
+    }
+    h2 { color: rgb(35, 63, 29); margin-top: 25px; }
+    abbr { color: chocolate; font-weight: bold; cursor: help; }
+    blockquote {
+      border-left: 4px solid chocolate;
+      padding-left: 15px;
+      color: rgb(71, 108, 82);
+      font-style: italic;
+      text-align: left;
+      display: inline-block;
+    }
+    hr { border-color: chocolate; }
+  </style>
+    </head>
+    <body>
+      <p class="display-1">My Food Dairy</p> 
+      <p class="display-2">My Top Dishes</p>
+      <p class="display-3">Fun Food Facts</p>
+      <p class="display-4">Food Guide <small>by Elanah</small></p>
+       
+       <hr>
+       <h2>Did you know?</h2>
+       <p>Pizza is the best food cause yeah small <mark>girl</mark></p>
+       <hr>
+       <h2>cooking style</h2>
+       <p>next one is making cereal first always put THE CEREAL FIRST AND THE MILK....</p><abbr
+       title="cereal">cer</abbr>
+       <hr>
+       <h2>Food review</h2>
+       <blockquote>
+        <p>first we eat then do everthing else thats what my mom said....</p>
+       </blockquote>
+
+    
+    </body>
+</html>
