@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head><title>Jumbotron</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<body>
+    <div class="jumbotron jumbotron-fluid">
+    
+        <div class="container">
+            <h1>My Science Lab</h1>
+            <p class="lead">Welcome to my lab! this s the place we make fun experiments and disasters and many more</p>   
+
+            <button class="btn btn-primary">Chemistry</button>
+            <button class="btn btn-warning">Bioligy</button>
+            <button class="btn btn-danger">Physics</button>
+            <button class="btn btn-success">Math</button>
+
+            <h2 class="section-title">experiments competed <span class="badge badge bg-danger">4</span></h2>
+            <h2 class="section title">Research <progress></progress></h2>
+            <div class="progress mb-3"></div>
+            <div class="progress-bar bg-success" style="width: 85%">85%</div>
+        </div>%
+        </div>
+    </div>
+</body>
+</html>
