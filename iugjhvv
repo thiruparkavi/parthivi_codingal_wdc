@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head><title>carousel</title>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="safariCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#safariCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#safariCarousel" data-slide-to="1"></li>
+            <li data-target="#safariCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+           <div class="carousel-item active safari-slide slide-forest">Ocean Safari</div>
+           <div class="carousel-item  safari-slide slide-forest">Desert Safari</div>
+           <div class="carousel-item  safari-slide slide-forest">Forest Safari</div>
+         
+    </div>
+        <a class="carousel-control-prev" href="#safariCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#safariCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>   
+    </body>
+</html>
