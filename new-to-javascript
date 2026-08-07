@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Javascript basic....</title>
+    </head>
+    <body>
+        <script>
+          let name="Parthivi";
+          let FavSub="English";
+          let grade=5;
+        console.log(`My name is ${name}.My favsub is ${FavSub}. I ma in grade ${grade}.`)
+       
+        </script>
+    </body>
+</html>
+
