@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My console</title>
+    </head>
+    <body>
+        <h2>my console somthing....</h2>
+        <script>
+            console.log("i hope my mom will buy me a cat..")
+        </script>
+    </body>
+</html>
