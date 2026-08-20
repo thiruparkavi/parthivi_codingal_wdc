@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Console log</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      console.log('Hello My name is Parthivi. I am in grade 5.');
+      console.log('i lovee drawing and coding :-p .');
+    </script>
+    </script>
+  </body>
+</html>
