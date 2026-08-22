@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head><title>the begigining of somthing.........</title>
+    </head>
+    <body>
+        <h1 id="id1">Welcome to DOM</h1>
+        <p>DOM</p>
+        <p>Document Object Model</p>
+    </body>
+    <script>
+    let heading = document.getElementById("id1");
+    heading.innerHTML = "&#128507;"
+    let div = document.createElement('div');
+    div.innerHTML = "<p>this is a new paragraph created by Javascript </p>"
+    document.body.append(div);
+    let div2 = document.createElement('div')
+     div2.innerHTML = "<h3> I wish i could have a cat.....</h3>"
+     document.body.append(div2)
+     document.querySelector('p').innerHTML = "<strong> an apple saves a day! </strong>";
+    </script>
+    
+</html>
