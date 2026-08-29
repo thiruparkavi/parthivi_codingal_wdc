@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html>
+    <head><title>THE SPOOKY STORY</title>
+        <style>
+            body.dark {
+                color: white;
+                background: black;
+            }
+            button {
+                display: block;
+                margin: 5px;
+            }
+            .textentry {
+                margin-top: 12px;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function goDark() {
+             document.body.className = "dark"
+            }
+            function scream() {
+             var personName = 
+             document.getElementById("name").value;
+             alert ("i told you not to do that " + personName);
+            }
+            function finishthestory() {
+                document.getElementById("story").innerHTML="then my mom woke my up.....";
+
+            }
+        </script>
+        <h1>The Basement</h1>
+        <p id ="story">i hade a scary dream,were my math teacher was chasing me in a Basement...</p>
+        <button onclick="goDark()">get in to the mood</button>
+        <div class="textentry">type here if you dare: <input type="text" id= "name"></div>
+        <button onclick="scream()">Please dont click me</button>
+        <br>
+        <button onclick="finishthestory()">tell me what happend?</button>
+        
+    </body>
+</html>
