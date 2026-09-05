@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <button onclick='console.log("I have hobbies like ★coding★, ★Drawing★, ★cycling★")'>My hobbies</button>
+  </body>
+</html>
